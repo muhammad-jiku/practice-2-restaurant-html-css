@@ -1,0 +1,734 @@
+body{
+
+    margin: 0 auto;
+    background-image: url("Restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+caption{
+
+    display: none;
+}
+
+.video{
+
+    display: none;
+}
+
+[class*="col-"]{
+
+    width: 100%;
+}
+
+/* header starts */
+
+
+.header{
+
+    margin:0 auto;
+    background-color: #FFEB3B;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo-sec{
+
+    text-align: center;
+}
+
+.logo{
+
+    height: 125px;
+}
+
+.heading-sec{
+
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.heading-sec h1{
+
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+
+.nav-head{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.nav-head a{
+
+    color: rgb(43, 61, 80);
+    text-decoration: none;
+    font-family: fantasy;
+    padding: 15px 0px;
+    margin: 10px ;
+    width: 100%;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+.nav-head a:hover{
+
+    color: maroon;
+    background-color: yellowgreen;
+}
+
+.header::after{
+
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* header ends */
+
+/* promo section starts */
+
+.promo{
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search{
+
+    background-color: rgba(255,255,255,0.5);
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    height: 25px;
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: cursive;
+    color: slategray;
+
+}
+
+.search::placeholder{
+
+    font-family: cursive;
+}
+
+
+.search:focus{
+
+    background-color:black ;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.promo h2{
+
+    padding: 25px 0;
+    box-sizing: border-box;
+    background-color: rgba(2, 255, 0, 0.5);
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+
+.promo h3{
+
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color: rgba(5, 255, 0, 0.7);
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    width: 50%;
+    margin-left: 130px;
+    text-transform: capitalize;
+
+}
+
+
+.promo::after{
+
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+
+
+/* promo section ends */
+
+/* main section starts */
+
+
+.main{
+
+    background-color: white;
+
+}
+
+
+/* about us section starts */
+
+.aboutus{
+
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 170px;
+}
+
+.aboutus h2{
+
+    font-family: 'Hanalei', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+
+.aboutus p{
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+.aboutus::after{
+
+   content: '';
+   clear: both;
+   display: table;
+
+}
+
+/* about section ends */
+
+/* food section starts */
+
+.foodmenu{
+
+   text-align: center;
+}
+
+/* card1 section starts */
+
+.card1{
+
+    height: 415px;
+    width: 305px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.card1:hover{
+
+    position: relative;
+    transform: scale(1.05);
+    transition: 6s;
+    transition-delay: 1s;
+    cursor: grab;
+    animation-name: card1;
+    animation-delay: 0.3s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes card1{
+
+    0%{
+        top:0;
+        bottom: 0;
+    }
+    25%{
+        top:15px;
+        bottom: 0;
+    }
+    50%{
+        top: 0;
+        bottom: 15px;
+    }
+    75%{
+        top: -15px;
+        bottom: 0;
+    }
+    100%{
+        top: 0;
+        bottom: -15px;
+    }
+}
+
+.beef{
+
+    width: 100%;
+    height: 175px;
+}
+
+.card1 h2{
+
+    margin: 0 auto;
+    margin-top: -6px;
+    background-color: yellowgreen;
+    padding: 15px;
+    font-family: cursive;
+}
+
+.card1 h3{
+
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+/* card1 section ends */
+
+
+/* card2 section starts */
+
+.card2{
+
+    height: 415px;
+    width: 305px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+
+.card2:hover{
+
+    position: relative;
+    transform: scale(1.05);
+    transition: 6s;
+    transition-delay: 1s;
+    cursor: grab;
+    animation-name: card2;
+    animation-delay: 0.3s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes card2{
+
+    0%{
+        top:0;
+        bottom: 0;
+    }
+    25%{
+        top:15px;
+        bottom: 0;
+    }
+    50%{
+        top: 0;
+        bottom: 15px;
+    }
+    75%{
+        top: -15px;
+        bottom: 0;
+    }
+    100%{
+        top: 0;
+        bottom: -15px;
+    }
+}
+
+
+.kacchi{
+
+    width: 100%;
+    height: 175px;
+}
+
+
+.card2 h2{
+
+    margin: 0 auto;
+    margin-top: -6px;
+    background-color: yellowgreen;
+    padding: 15px;
+    font-family: cursive;
+}
+
+.card2 h3{
+
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+/* card2 section ends */
+
+
+/* card3 section starts */
+
+
+
+.card3{
+
+    height: 415px;
+    width: 305px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+}
+
+
+
+.card3:hover{
+
+    position: relative;
+    transform: scale(1.05);
+    transition: 6s;
+    transition-delay: 1s;
+    cursor: grab;
+    animation-name: card3;
+    animation-delay: 0.3s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes card3{
+
+    0%{
+        top:0;
+        bottom: 0;
+    }
+    25%{
+        top:15px;
+        bottom: 0;
+    }
+    50%{
+        top: 0;
+        bottom: 15px;
+    }
+    75%{
+        top: -15px;
+        bottom: 0;
+    }
+    100%{
+        top: 0;
+        bottom: -15px;
+    }
+}
+
+.chicken{
+
+    width: 100%;
+    height: 175px;
+}
+
+
+.card3 h2{
+
+    margin: 0 auto;
+    margin-top: -6px;
+    background-color: yellowgreen;
+    padding: 15px;
+    font-family: cursive;
+}
+
+
+.card3 h3{
+
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+/* card3 section ends */
+
+
+/* card4 section starts */
+
+
+.card4{
+
+    height: 415px;
+    width: 305px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+}
+
+
+.card4:hover{
+
+    position: relative;
+    transform: scale(1.05);
+    transition: 6s;
+    transition-delay: 1s;
+    cursor: grab;
+    animation-name: card4;
+    animation-delay: 0.3s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes card4{
+
+    0%{
+        top:0;
+        bottom: 0;
+    }
+    25%{
+        top:15px;
+        bottom: 0;
+    }
+    50%{
+        top: 0;
+        bottom: 15px;
+    }
+    75%{
+        top: -15px;
+        bottom: 0;
+    }
+    100%{
+        top: 0;
+        bottom: -15px;
+    }
+}
+
+.veg{
+
+    width: 100%;
+    height: 175px;
+}
+
+
+.card4 h2{
+
+    margin: 0 auto;
+    margin-top: -6px;
+    background-color: yellowgreen;
+    padding: 15px;
+    font-family: cursive;
+
+}
+
+
+.card4 h3{
+
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+/* card4 section ends */
+
+.foodmenu::after{
+
+   content: '';
+   clear: both;
+   display: table;
+
+ }
+
+
+/* food section ends */
+
+/* contact section starts */
+
+.contact{
+
+    background-color: lightslategrey;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;  
+    width: 100%;
+}
+
+.map{
+
+    text-align: center;
+    
+}
+
+.location{
+
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 250px;
+    width: 380px;
+
+}
+
+.connect{
+
+    margin-top: 50px;
+    font-family: cursive;
+
+}
+
+.connect h3{
+
+    text-transform: capitalize;
+    color: maroon;
+    font-size: 26px;
+}
+
+.connect h4{
+
+    text-transform: capitalize;
+    color: khaki;
+    font-size: 22px;
+}
+
+.connect p{
+
+    position: relative;
+    top: -20px;
+    text-transform: lowercase;
+}
+
+.connect a{
+    position: relative;
+    top: -25px;
+    color: black;
+    text-decoration: none;
+}
+
+.connect a:hover{
+
+    color: brown;
+}
+
+.contact{
+
+    content: '';
+    clear: both;
+    display: table;   
+}
+
+
+/* contact section ends */
+
+.main::after{
+
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* main section ends */
+
+/* footer section starts */
+
+.footer{
+
+    background: linear-gradient(to bottom,#778899,#778899, #374452, #06092A);
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer h3{
+
+    color: rgb(224, 219, 139);
+    text-align: center;
+    font-family: cursive;
+    font-size: 26px;
+}
+
+.button{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button a{
+
+    background-color: white;
+    padding: 18px;
+    height: 20px;
+    width: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.button a:hover{
+
+    background-color:#090C30 ;
+    border-color:#090C30 ;
+    color: maroon;
+}
+
+.up{
+
+    color: black;
+}
+
+
+.fb{
+
+    color: #629DEE;
+}
+
+.insta{
+
+    color: yellowgreen;
+}
+
+.msg{
+
+    color: darkcyan;
+}
+
+.footer{
+
+   content: '';
+   clear: both;
+   display: table;
+
+}
+
+.rights{
+
+    text-align: center;
+    color: wheat;
+    margin-top: 55px;
+    font-family: cursive;
+    
+}
+
+span{
+
+    color: brown;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+}
+
+/* footer section ends */

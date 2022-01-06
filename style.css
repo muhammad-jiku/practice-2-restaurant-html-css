@@ -1,0 +1,220 @@
+
+@media (min-aspect-ratio:16/9){
+ 
+    .video{
+
+    height:auto;
+    width: 100%;
+
+    }
+    
+}
+
+@media (max-aspect-ratio:16/9){
+
+    .video{
+
+        height: 100%;
+        width: auto;
+    
+        }
+        
+}
+.video{
+
+    z-index: -1;
+    position: fixed;
+    opacity: 0.8;
+    display: flex;
+
+}
+
+body{
+
+    background-image: none;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+
+    float: left;
+}
+
+
+/* header section starts */
+
+.header{
+
+    background: linear-gradient(to right,#FFEB3B,#F0DD37,#CCBC2F);
+}
+
+.logo{
+
+    height: 145px;
+}
+
+.heading-sec h1{
+
+    margin-top: 45px;
+    position: relative;
+    left: 10px;
+    font-size: 34px;
+}
+
+.nav-head{
+
+    flex-direction: row;
+}
+
+.nav-head a{
+
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+   
+}
+
+.he{
+
+    background: linear-gradient(to right,#F0DD37,#ECDA36,#EDDB36,#EDDB36,#E8D535);
+}
+
+.he:hover{
+
+    color: maroon;
+    background: floralwhite;
+}
+
+
+.abus{
+
+    background: linear-gradient(to right,#E6D435,#E5D335,#E2D134,#E0CE34,#DFCD33);
+}
+
+.abus:hover{
+
+    color: maroon;
+    background: floralwhite;
+}
+
+
+
+.fd{
+
+    background: linear-gradient(to right,#DDCC33,#DCCA33,#DAC932,#D7C632,#D5C531);
+}
+
+.fd:hover{
+
+    color: maroon;
+    background: floralwhite;
+}
+
+
+.cont{
+
+    background: linear-gradient(to right,#D5C531,#D4C431,#D1C130,#CFBE30,#CDBD2F);
+}
+
+.cont:hover{
+
+    color: maroon;
+    background: floralwhite;
+}
+
+
+/* header section ends */
+
+/* promo section starts */
+
+.search{
+
+    width: 40%;
+    position: relative;
+    left: 50px;
+    transform: translateX(50%);
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+.promo h2{
+
+    width: 60%;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin-left: 270px;
+    margin-top: 170px;
+    font-size: 32px;
+}
+
+
+.promo h3{
+
+    width: 30%;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin-left: 470px;
+    font-size: 28px;
+
+}
+
+/* promo section ends */
+
+/* main section starts */
+
+/* about us section starts */
+
+
+/* about us section ends */
+
+
+/*foodmenu section starts */
+
+.card1{
+
+    margin-left: 25px;
+}
+
+.card2{
+
+    margin-left: 25px;
+}
+
+.card3{
+
+    margin-left: 25px;
+}
+
+.card4{
+
+    margin-left: 25px;
+}
+
+/* foodmenu section ends */
+
+/* contact section starts */
+
+.location{
+
+    height: 450px;
+    width: 650px;
+}
+
+/* contact section ends */
+
+/* main section ends */
